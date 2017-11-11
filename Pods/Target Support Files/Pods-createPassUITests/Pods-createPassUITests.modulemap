@@ -1,0 +1,6 @@
+framework module Pods_createPassUITests {
+  umbrella header "Pods-createPassUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

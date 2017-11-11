@@ -7,6 +7,8 @@
 //
 
 import Cocoa
+import CryptoSwift
+
 
 class ViewController: NSViewController {
 
@@ -41,17 +43,23 @@ class ViewController: NSViewController {
         let userPassword = String(userPass.stringValue)
         
         // Concatonate the two strings
-        let newPassword = String(userWeb + userPassword)
-        
+        let prehashPassword = String(userPassword + userWeb)
+     
         // Call the she256 alg on the string
-        // TODO
+        var newPassword = prehashPassword.sha256().uppercased()
+        newPassword = newPassword.sha256()
+        
+        // Shorten string legnth to 16
+        // In future verion I want an option to chose length
         
         // Output the new password onto the screen
         newPass.stringValue = newPassword
         
         // Copy the new password to the clipboard
-        // TODO
+        let pasteboard = NSPasteboard.general
+        pasteboard.clearContents()
+        pasteboard.setString(newPassword, forType: NSPasteboard.PasteboardType.string)
     }
-
+    
 }
 

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B986A2132A71D3FD2B12F1D /* Pods_createPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61F54DA5D886138EDE86464 /* Pods_createPassUITests.framework */; };
+		1CE610BC12689D9601D29ED1 /* Pods_createPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4199C4E5CCE1E03F5E159AB0 /* Pods_createPassTests.framework */; };
 		8A5E04AF1FB5627E00AD545D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E04AE1FB5627E00AD545D /* AppDelegate.swift */; };
 		8A5E04B11FB5627E00AD545D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E04B01FB5627E00AD545D /* ViewController.swift */; };
 		8A5E04B31FB5627E00AD545D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E04B21FB5627E00AD545D /* Assets.xcassets */; };
 		8A5E04B61FB5627E00AD545D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E04B41FB5627E00AD545D /* Main.storyboard */; };
 		8A5E04C21FB5627E00AD545D /* createPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E04C11FB5627E00AD545D /* createPassTests.swift */; };
 		8A5E04CD1FB5627E00AD545D /* createPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E04CC1FB5627E00AD545D /* createPassUITests.swift */; };
+		93F525DA9819DAC75B03977F /* Pods_createPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C43C538973CF0A899AE90 /* Pods_createPass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +35,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8A5E04EC1FB6789C00AD545D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A27B3985408D4E1144BB722 /* Pods-createPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-createPass/Pods-createPass.debug.xcconfig"; sourceTree = "<group>"; };
+		3A97B35FCAA689C57B1FD782 /* Pods-createPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-createPassUITests/Pods-createPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4199C4E5CCE1E03F5E159AB0 /* Pods_createPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_createPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C71A8C51C33877A2C2452EF /* Pods-createPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-createPassTests/Pods-createPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		55F7CA7CAA3D8D4D28639419 /* Pods-createPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-createPass/Pods-createPass.release.xcconfig"; sourceTree = "<group>"; };
 		8A5E04AB1FB5627E00AD545D /* createPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = createPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5E04AE1FB5627E00AD545D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A5E04B01FB5627E00AD545D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +67,10 @@
 		8A5E04C81FB5627E00AD545D /* createPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = createPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5E04CC1FB5627E00AD545D /* createPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createPassUITests.swift; sourceTree = "<group>"; };
 		8A5E04CE1FB5627E00AD545D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C19999008648F8FDDEFDAA /* Pods-createPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-createPassTests/Pods-createPassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6C43C538973CF0A899AE90 /* Pods_createPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_createPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC05BC1BA335C7C2968B0338 /* Pods-createPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-createPassUITests/Pods-createPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F61F54DA5D886138EDE86464 /* Pods_createPassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_createPassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F525DA9819DAC75B03977F /* Pods_createPass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE610BC12689D9601D29ED1 /* Pods_createPassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B986A2132A71D3FD2B12F1D /* Pods_createPassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B005B9C5A04DBCD2A71F40B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A27B3985408D4E1144BB722 /* Pods-createPass.debug.xcconfig */,
+				55F7CA7CAA3D8D4D28639419 /* Pods-createPass.release.xcconfig */,
+				93C19999008648F8FDDEFDAA /* Pods-createPassTests.debug.xcconfig */,
+				4C71A8C51C33877A2C2452EF /* Pods-createPassTests.release.xcconfig */,
+				AC05BC1BA335C7C2968B0338 /* Pods-createPassUITests.debug.xcconfig */,
+				3A97B35FCAA689C57B1FD782 /* Pods-createPassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A5E04A21FB5627E00AD545D = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +121,8 @@
 				8A5E04C01FB5627E00AD545D /* createPassTests */,
 				8A5E04CB1FB5627E00AD545D /* createPassUITests */,
 				8A5E04AC1FB5627E00AD545D /* Products */,
+				8A5E04E61FB6784100AD545D /* Frameworks */,
+				4B005B9C5A04DBCD2A71F40B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +167,16 @@
 			path = createPassUITests;
 			sourceTree = "<group>";
 		};
+		8A5E04E61FB6784100AD545D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA6C43C538973CF0A899AE90 /* Pods_createPass.framework */,
+				4199C4E5CCE1E03F5E159AB0 /* Pods_createPassTests.framework */,
+				F61F54DA5D886138EDE86464 /* Pods_createPassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +184,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5E04D11FB5627E00AD545D /* Build configuration list for PBXNativeTarget "createPass" */;
 			buildPhases = (
+				A071FC4A20DFAE4A4633881C /* [CP] Check Pods Manifest.lock */,
 				8A5E04A71FB5627E00AD545D /* Sources */,
 				8A5E04A81FB5627E00AD545D /* Frameworks */,
 				8A5E04A91FB5627E00AD545D /* Resources */,
+				8A5E04EC1FB6789C00AD545D /* Embed Frameworks */,
+				8C0C8FE991FF0E6534709D5D /* [CP] Embed Pods Frameworks */,
+				56756F10FA9BC1E1198F3FAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5E04D41FB5627E00AD545D /* Build configuration list for PBXNativeTarget "createPassTests" */;
 			buildPhases = (
+				A5A78C0C7E7AF7DD3C3967D4 /* [CP] Check Pods Manifest.lock */,
 				8A5E04B91FB5627E00AD545D /* Sources */,
 				8A5E04BA1FB5627E00AD545D /* Frameworks */,
 				8A5E04BB1FB5627E00AD545D /* Resources */,
+				B628729691B93B889DF6B754 /* [CP] Embed Pods Frameworks */,
+				B766AEAD41D3BFB4098E0FEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5E04D71FB5627E00AD545D /* Build configuration list for PBXNativeTarget "createPassUITests" */;
 			buildPhases = (
+				6BB6885454E6BCFBDFDC1C66 /* [CP] Check Pods Manifest.lock */,
 				8A5E04C41FB5627E00AD545D /* Sources */,
 				8A5E04C51FB5627E00AD545D /* Frameworks */,
 				8A5E04C61FB5627E00AD545D /* Resources */,
+				984E2C8192F0C9826F85AE7F /* [CP] Embed Pods Frameworks */,
+				4DDF20BC207C3713741ED406 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +314,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DDF20BC207C3713741ED406 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-createPassUITests/Pods-createPassUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56756F10FA9BC1E1198F3FAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-createPass/Pods-createPass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB6885454E6BCFBDFDC1C66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-createPassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0C8FE991FF0E6534709D5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-createPass/Pods-createPass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-createPass/Pods-createPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984E2C8192F0C9826F85AE7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-createPassUITests/Pods-createPassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A071FC4A20DFAE4A4633881C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-createPass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5A78C0C7E7AF7DD3C3967D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-createPassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B628729691B93B889DF6B754 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-createPassTests/Pods-createPassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B766AEAD41D3BFB4098E0FEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-createPassTests/Pods-createPassTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A5E04A71FB5627E00AD545D /* Sources */ = {
@@ -413,7 +626,9 @@
 		};
 		8A5E04D21FB5627E00AD545D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A27B3985408D4E1144BB722 /* Pods-createPass.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = createPass/createPass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,7 +643,9 @@
 		};
 		8A5E04D31FB5627E00AD545D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F7CA7CAA3D8D4D28639419 /* Pods-createPass.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = createPass/createPass.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +660,7 @@
 		};
 		8A5E04D51FB5627E00AD545D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C19999008648F8FDDEFDAA /* Pods-createPassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -459,6 +677,7 @@
 		};
 		8A5E04D61FB5627E00AD545D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C71A8C51C33877A2C2452EF /* Pods-createPassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +694,7 @@
 		};
 		8A5E04D81FB5627E00AD545D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC05BC1BA335C7C2968B0338 /* Pods-createPassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +710,7 @@
 		};
 		8A5E04D91FB5627E00AD545D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A97B35FCAA689C57B1FD782 /* Pods-createPassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
