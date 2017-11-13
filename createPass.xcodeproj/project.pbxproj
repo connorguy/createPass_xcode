@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B986A2132A71D3FD2B12F1D /* Pods_createPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61F54DA5D886138EDE86464 /* Pods_createPassUITests.framework */; };
 		1CE610BC12689D9601D29ED1 /* Pods_createPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4199C4E5CCE1E03F5E159AB0 /* Pods_createPassTests.framework */; };
+		8A39E6171FB6F13B00FE3631 /* string-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39E6161FB6F13B00FE3631 /* string-ext.swift */; };
 		8A5E04AF1FB5627E00AD545D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E04AE1FB5627E00AD545D /* AppDelegate.swift */; };
 		8A5E04B11FB5627E00AD545D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E04B01FB5627E00AD545D /* ViewController.swift */; };
 		8A5E04B31FB5627E00AD545D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E04B21FB5627E00AD545D /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		4199C4E5CCE1E03F5E159AB0 /* Pods_createPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_createPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C71A8C51C33877A2C2452EF /* Pods-createPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-createPassTests/Pods-createPassTests.release.xcconfig"; sourceTree = "<group>"; };
 		55F7CA7CAA3D8D4D28639419 /* Pods-createPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-createPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-createPass/Pods-createPass.release.xcconfig"; sourceTree = "<group>"; };
+		8A39E6161FB6F13B00FE3631 /* string-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "string-ext.swift"; sourceTree = "<group>"; };
 		8A5E04AB1FB5627E00AD545D /* createPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = createPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5E04AE1FB5627E00AD545D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A5E04B01FB5627E00AD545D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,12 +141,13 @@
 		8A5E04AD1FB5627E00AD545D /* createPass */ = {
 			isa = PBXGroup;
 			children = (
-				8A5E04AE1FB5627E00AD545D /* AppDelegate.swift */,
 				8A5E04B01FB5627E00AD545D /* ViewController.swift */,
+				8A5E04AE1FB5627E00AD545D /* AppDelegate.swift */,
 				8A5E04B21FB5627E00AD545D /* Assets.xcassets */,
 				8A5E04B41FB5627E00AD545D /* Main.storyboard */,
 				8A5E04B71FB5627E00AD545D /* Info.plist */,
 				8A5E04B81FB5627E00AD545D /* createPass.entitlements */,
+				8A39E6161FB6F13B00FE3631 /* string-ext.swift */,
 			);
 			path = createPass;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A5E04B11FB5627E00AD545D /* ViewController.swift in Sources */,
+				8A39E6171FB6F13B00FE3631 /* string-ext.swift in Sources */,
 				8A5E04AF1FB5627E00AD545D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

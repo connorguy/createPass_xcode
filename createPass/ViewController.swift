@@ -15,6 +15,7 @@ class ViewController: NSViewController {
     @IBOutlet weak var websiteName: NSTextField!
     @IBOutlet weak var userPass: NSSecureTextField!
     @IBOutlet weak var newPass: NSTextField!
+    @IBOutlet weak var outputPass: NSTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,20 +47,24 @@ class ViewController: NSViewController {
         let prehashPassword = String(userPassword + userWeb)
      
         // Call the she256 alg on the string
-        var newPassword = prehashPassword.sha256().uppercased()
-        newPassword = newPassword.sha256()
+        var hashPassword = prehashPassword.sha256().uppercased()
+        hashPassword = hashPassword.sha256()
         
         // Shorten string legnth to 16
         // In future verion I want an option to chose length
+        let newPassword = hashPassword[0..<16]
         
         // Output the new password onto the screen
+        outputPass.stringValue = "New password has been copied!"
         newPass.stringValue = newPassword
         
         // Copy the new password to the clipboard
         let pasteboard = NSPasteboard.general
         pasteboard.clearContents()
         pasteboard.setString(newPassword, forType: NSPasteboard.PasteboardType.string)
+        
     }
+
     
 }
 
