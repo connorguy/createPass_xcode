@@ -757,6 +757,9 @@
                                 <buttonCell key="cell" type="push" title="GENERATE" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="m4W-K0-hFY">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
                                 </buttonCell>
                                 <connections>
                                     <action selector="generate:" target="XfG-lQ-9wD" id="HVy-CF-qnm"/>
